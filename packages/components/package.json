@@ -1,0 +1,35 @@
+{
+  "name": "@coderbaozi/ui-components",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "author": "qianizyang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbaozi/remote-compnents.git"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.7",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.3",
+    "fast-glob": "^3.3.2",
+    "rollup": "^4.19.1",
+    "rollup-plugin-external-globals": "^0.11.0",
+    "typescript": "^5.5.3"
+  }
+}
